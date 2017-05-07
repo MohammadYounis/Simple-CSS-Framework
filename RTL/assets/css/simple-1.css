@@ -1,4 +1,4 @@
-/* Simple Framework 1 | by Mohammad Younis [http://www.linkedin.com/in/mohammadyounis] */
+/* Simple Framework | by Mohammad Younis [http://www.linkedin.com/in/mohammadyounis] */
 
 /* --------------------Main Settings-------------------- */
 html {
@@ -1493,7 +1493,7 @@ this class (.grid-margin) */
 }
 /* /Large Screens - [Desktop] */
 
-/* Medium and Small Screens – [Common between tablet and mobile] */
+/* Medium and Small Screens Â– [Common between tablet and mobile] */
 @media screen and (max-width:959px) {
 /* --------------------Tabs-------------------- */
 .tab-links {
@@ -1533,7 +1533,7 @@ this class (.grid-margin) */
 }
 /* --------------------/Tabs-------------------- */
 }
-/* /Medium and Small Screens – [Common between tablet and mobile] */
+/* /Medium and Small Screens Â– [Common between tablet and mobile] */
 
 /* Medium Screens - [Landscape tablet to desktop] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
