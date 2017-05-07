@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>simple framework - Keep it simple</title>
+<link rel="stylesheet" href="assets/css/simple-1.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="assets/css/simple-on-oldIE.css">
+    <script src="assets/js/html5-on-oldIE.js"></script>
+<![endif]-->
+<!--Font Icons [Font Awesome]-->
+<link rel="stylesheet" href="assets/fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+<!--/Font Icons [Font Awesome]-->
+<script src="assets/js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<!--Wrapper-->
+<div class="off-menu-wrapper">
+  <div class="inner-wrapper"> 
+    <!--Navigation - Menu Bar [Off Canvas Menu]-->
+    <aside class="off-menu">
+      <ul class="item-sep">
+        <li><a href="#">Home</a></li>
+        <li><span>Page Name - 1</span> 
+          <!--Sub Menu-->
+          <ul class="item-no-sep">
+            <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a></li>
+            <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+            <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+            <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+            <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+          </ul>
+          <!--/Sub Menu--> 
+        </li>
+        <li><a href="#">Page Name - 2</a></li>
+        <li><a href="#">Page Name - 3</a></li>
+        <li><a href="#">Page Name - 4</a></li>
+        <li><a href="#">Page Name - 5</a></li>
+        <li><a href="#">Page Name - 6</a></li>
+        <li><a href="#">Page Name - 7</a></li>
+        <li><a href="#">Page Name - 8</a></li>
+        <li><a href="#">Page Name - 9</a></li>
+        <li><a href="#">Page Name - 10</a></li>
+      </ul>
+    </aside>
+    <a class="close-off-menu" name="startFromTop"></a> 
+    <!--/Navigation - Menu Bar [Off Canvas Menu]--> 
+    <!--Header-->
+    <header class="over-hidden bg-gray text-center sep">
+      <h1>Simple Framework</h1>
+      <h3>The simplest responsive front-end framework</h3>
+    </header>
+    <!--/Header--> 
+    <!--Content-->
+    <section> 
+      <!--Typography-->
+      <div class="row">
+        <h2 class="column">Typography</h2>
+        <div class="columns large-4 medium-6 small-12">
+          <div>
+            <h1><span class="font-small color-gray">Header 1:</span> Keep it simple...</h1>
+          </div>
+          <div>
+            <h2><span class="font-small color-gray">Header 2:</span> Keep it simple...</h2>
+          </div>
+          <div>
+            <h3><span class="font-small color-gray">Header 3:</span> Keep it simple...</h3>
+          </div>
+          <div>
+            <h4><span class="font-small color-gray">Header 4:</span> Keep it simple...</h4>
+          </div>
+          <div>
+            <h5><span class="font-small color-gray">Header 5:</span> Keep it simple...</h5>
+          </div>
+          <div>
+            <h6><span class="font-small color-gray">Header 6:</span> Keep it simple...</h6>
+          </div>
+        </div>
+        <div class="columns large-8 medium-6 small-12">
+          <p> Simple is made by Mohammad Younis [<a href="http://www.linkedin.com/in/mohammadyounis" target="_blank">http://www.linkedin.com/in/mohammadyounis</a>] </p>
+          <strong>- Features:</strong>
+          <ul>
+            <li>Simple.</li>
+            <li>Faster.</li>
+            <li>Semantic.</li>
+            <li>Grid.</li>
+            <li>Responsive (Flexible with Fluid/Fixed layout).</li>
+            <li>Support LTR & RTL direction.</li>
+            <li>Customizable.</li>
+            <li>Easy to Learn.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Typography--> 
+      <!--Buttons-->
+      <div class="row">
+        <h2 class="column">Buttons</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn">Primary Button [Default]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-secondary">Secondary Button [Default]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-alert">Alert Button [Default]</a> </div>
+          <div class="columns large-3 medium-3"> <a href="#" class="btn disabled">Disabled Button [Default]</a> </div>
+        </div>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg">Primary Button [Large]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-secondary btn-lg">Secondary Button [Large]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-alert btn-lg">Alert Button [Large]</a> </div>
+          <div class="columns large-3 medium-3"> <a href="#" class="btn btn-lg disabled">Disabled Button [Large]</a> </div>
+        </div>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Primary Button [Medium] [Medium]" type="button" class="btn btn-med">
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Secondary Button [Medium]" type="button" class="btn btn-med btn-secondary">
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Alert Button [Medium]" type="button" class="btn btn-med btn-alert">
+          </div>
+          <div class="columns large-3 medium-3">
+            <input value="Disabled Button [Medium]" type="button" class="btn btn-med disabled">
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <button class="btn btn-sm">Primary Button [Small]</button>
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <button class="btn btn-sm btn-secondary">Secondary Button [Small]</button>
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <button class="btn btn-sm btn-alert">Alert Button [Small]</button>
+          </div>
+          <div class="columns large-3 medium-3">
+            <button class="btn btn-sm disabled">Disabled Button [Small]</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg btn-expand">Primary Button [Expand]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg btn-secondary btn-expand">Secondary Button [Expand]</a> </div>
+          <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg btn-alert btn-expand">Alert Button [Expand]</a> </div>
+          <div class="columns large-3 medium-3"> <a href="#" class="btn btn-lg disabled btn-expand">Disabled Button [Expand]</a> </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Buttons--> 
+      <!--Buttons - with border radius 5 and 10-->
+      <div class="row">
+        <h2 class="column">Buttons - with border radius 5 and 10</h2>
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg radius5">Primary Button [Radius=5]</a> </div>
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-secondary btn-lg radius5">Secondary Button [Radius=5]</a> </div>
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-alert btn-lg radius5">Alert Button [Radius=5]</a> </div>
+        <div class="columns large-3 medium-3"> <a href="#" class="btn btn-lg disabled radius5">Disabled Button [Radius=5]</a> </div>
+      </div>
+      <div class="row">
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg radius10 btn-expand">Primary Button [Radius=10]</a> </div>
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg btn-secondary radius10 btn-expand">Secondary Button [Radius=10]</a> </div>
+        <div class="columns large-3 medium-3 grid-margin-sm"> <a href="#" class="btn btn-lg btn-alert radius10 btn-expand">Alert Button [Radius=10]</a> </div>
+        <div class="columns large-3 medium-3"> <a href="#" class="btn btn-lg disabled radius10 btn-expand">Disabled Button [Radius=10]</a> </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Buttons - with border radius 5 and 10--> 
+      <!--Form - Input Field-->
+      <div class="row">
+        <h2 class="column">Form - Input Field</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Default" type="text" class="form-field">
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Error" type="text" class="form-field has-error">
+          </div>
+          <div class="columns large-3 medium-3 grid-margin-sm">
+            <input value="Success" type="text" class="form-field has-success">
+          </div>
+          <div class="columns large-3 medium-3">
+            <input value="Disabled" type="text" class="form-field disabled" disabled="disabled">
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Form - Input Field--> 
+      <!--Form - Select List-->
+      <div class="row">
+        <h2 class="column">Form - Select List</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3">
+            <select class="form-select">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+              <option>Option 4</option>
+              <option>Option 5</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Form - Select List--> 
+      <!--Form - Text Area-->
+      <div class="row">
+        <h2 class="column">Form - Text Area</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3">
+            <textarea class="form-text-area">simple framework :: Keep it simple...</textarea>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Form - Text Area--> 
+      
+      <!--Form - Switch Button-->
+      <div class="row">
+        <h2 class="column">Form - Checkbox - Switch Button</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3">
+            <div class="switch-checkbox"> <span class="label">Autoplay</span>
+              <div class="checkbox-on-off">
+                <input type="checkbox" name="checkboxName" class="checkbox">
+                <label class="switch-btn"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Form - Checkbox - Switch Button--> 
+      
+      <!--Form - Validation-->
+      <div class="row">
+        <h2 class="column">Form - Validation</h2>
+        <div class="row">
+          <div class="columns large-3 medium-3">
+            <input id="field-data" value="Default" type="text" class="form-field">
+            <label for="field-data" class="error">يجب إدخال هذه المعلومة.</label>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Form - Validation--> 
+      
+      <!--Alert Messages-->
+      <div class="row">
+        <h2 class="column">Messages</h2>
+        <div class="row">
+          <div class="columns">
+            <div class="alert-message success"> <a href="#" class="close" title="close">×</a> <strong>Success!</strong> This alert box indicates a successful or positive action. </div>
+            <div class="alert-message info"> <a href="#" class="close" title="close">×</a> <strong>Info!</strong> This alert box indicates a neutral informative change or action. </div>
+            <div class="alert-message warning"> <a href="#" class="close" title="close">×</a> <strong>Warning!</strong> This alert box indicates a warning that might need attention. </div>
+            <div class="alert-message alert"> <a href="#" class="close" title="close">×</a> <strong>Alert!</strong> This alert box indicates a dangerous or potentially negative action. </div>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Alert Messages--> 
+      
+      <!--Tooltips-->
+      <div class="row">
+        <h2 class="column">Tooltips</h2>
+        <div class="row">
+          <div class="columns large-3 medium-6">
+            <div class="tooltip arrow-top">Tooltip | Keep it simple...</div>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <div class="tooltip arrow-right">Tooltip | Keep it simple...</div>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <div class="tooltip arrow-bottom">Tooltip | Keep it simple...</div>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <div class="tooltip arrow-left">Tooltip | Keep it simple...</div>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Tooltips--> 
+      <!--Arrows-->
+      <div class="row">
+        <h2 class="column">Arrows</h2>
+        <div class="row">
+          <div class="columns large-3 medium-6">
+            <span class="arrow arrow-top"></span>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <span class="arrow arrow-right"></span>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <span class="arrow arrow-bottom"></span>
+            <br>
+          </div>
+          <div class="columns large-3 medium-6">
+            <span class="arrow arrow-left"></span>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Arrows--> 
+      <!--Navigation - Breadcrumbs-->
+      <div class="row">
+        <h2 class="column">Navigation - Breadcrumbs</h2>
+        <div class="row">
+          <div class="columns">
+            <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li class="sign"> &raquo; </li>
+              <li><a href="#">Page Name</a></li>
+              <li class="sign"> &raquo; </li>
+              <li><a href="#">Page Name</a></li>
+              <li class="sign"> &raquo; </li>
+              <li class="current">Current Page</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Navigation - Breadcrumbs--> 
+      <!--Navigation - Pagination-->
+      <div class="row">
+        <h2 class="column">Navigation - Pagination</h2>
+        <div class="columns text-center">
+          <ul class="pagination">
+            <li><a href="#" title="First" class="arrow">&laquo;</a></li>
+            <li><a href="#" title="Previous" class="arrow">&lsaquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="current"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" title="Next" class="arrow">&rsaquo;</a></li>
+            <li><a href="#" title="Last" class="arrow">&raquo;</a></li>
+          </ul>
+          <div class="clear"></div>
+          <ul class="pagination radius">
+            <li><a href="#" title="First" class="arrow">&laquo;</a></li>
+            <li><a href="#" title="Previous" class="arrow">&lsaquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="current"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" title="Next" class="arrow">&rsaquo;</a></li>
+            <li><a href="#" title="Last" class="arrow">&raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Navigation - Pagination--> 
+      <!--Navigation - Menu Bar-->
+      <div class="row">
+        <div class="column">
+          <h2>Navigation - Menu Bar</h2>
+          <!--Horizontal Menu Bar-->
+          <div class="row">
+            <h3>[Horizontal Menu Bar]</h3>
+            <div class="nav-bar-toggle hidden-desktop">Menu</div>
+            <nav class="nav-bar nav-horizontal">
+              <ul>
+                <li class="active"><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Page Name - 1">Page Name - 1</a></li>
+                <li><a href="#" title="Page Name - 2">Page Name - 2</a></li>
+                <li><a href="#" title="Page Name - 3">Page Name - 3</a></li>
+                <li><a href="#" title="Page Name - 4">Page Name - 4</a></li>
+                <li><a href="#" title="Page Name - 5">Page Name - 5</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--/Horizontal Menu Bar--> 
+          <!--Horizontal Menu Bar - with drop-down list-->
+          <div class="row">
+            <h3>[Horizontal Menu Bar | with drop-down list]</h3>
+            <div class="nav-bar-toggle hidden-desktop">Menu</div>
+            <nav class="nav-bar nav-horizontal">
+              <ul>
+                <li class="active"><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Page Name - 1">Page Name - 1</a> 
+                  <!--Sub Menu-->
+                  <ul class="sub-nav">
+                    <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a> 
+                      <!--Sub Menu-->
+                      <ul class="sub-nav">
+                        <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a> 
+                          <!--Sub Menu-->
+                          <ul class="sub-nav">
+                            <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a></li>
+                            <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                            <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                            <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                            <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                          </ul>
+                          <!--/Sub Menu--> 
+                        </li>
+                        <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                        <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                        <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                        <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                      </ul>
+                      <!--/Sub Menu--> 
+                    </li>
+                    <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a> 
+                      <!--Sub Menu-->
+                      <ul class="sub-nav">
+                        <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a></li>
+                        <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                        <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                        <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                        <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                      </ul>
+                      <!--/Sub Menu--> 
+                    </li>
+                    <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                    <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                    <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                  </ul>
+                  <!--/Sub Menu--> 
+                </li>
+                <li><a href="#" title="Page Name - 2">Page Name - 2</a></li>
+                <li><a href="#" title="Page Name - 3">Page Name - 3</a></li>
+                <li><a href="#" title="Page Name - 4">Page Name - 4</a></li>
+                <li><a href="#" title="Page Name - 5">Page Name - 5</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--/Horizontal Menu Bar - with drop-down list--> 
+          <!--Vertical Menu Bar-->
+          <div class="row">
+            <h3>[Vertical Menu Bar]</h3>
+            <div class="nav-bar-toggle hidden-desktop">Menu</div>
+            <nav class="nav-bar nav-vertical">
+              <ul>
+                <li class="active"><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Page Name - 1">Page Name - 1</a></li>
+                <li><a href="#" title="Page Name - 2">Page Name - 2</a></li>
+                <li><a href="#" title="Page Name - 3">Page Name - 3</a></li>
+                <li><a href="#" title="Page Name - 4">Page Name - 4</a></li>
+                <li><a href="#" title="Page Name - 5">Page Name - 5</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--/Vertical Menu Bar--> 
+          <!--Vertical Menu Bar - with drop-down list-->
+          <div class="row">
+            <h3>[Vertical Menu Bar | with drop-down list]</h3>
+            <div class="nav-bar-toggle hidden-desktop">Menu</div>
+            <nav class="nav-bar nav-vertical">
+              <ul>
+                <li class="active"><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="Page Name - 1">Page Name - 1</a> 
+                  <!--Sub Menu-->
+                  <ul class="sub-nav">
+                    <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a> 
+                      <!--Sub Menu-->
+                      <ul class="sub-nav">
+                        <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a></li>
+                        <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                        <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                        <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                        <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                      </ul>
+                      <!--/Sub Menu--> 
+                    </li>
+                    <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                    <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                    <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                    <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                  </ul>
+                  <!--/Sub Menu--> 
+                </li>
+                <li><a href="#" title="Page Name - 2">Page Name - 2</a> 
+                  <!--Sub Menu-->
+                  <ul class="sub-nav">
+                    <li><a href="#" title="Page Name - 1.1">Page Name - 1.1</a></li>
+                    <li><a href="#" title="Page Name - 1.2">Page Name - 1.2</a></li>
+                    <li><a href="#" title="Page Name - 1.3">Page Name - 1.3</a></li>
+                    <li><a href="#" title="Page Name - 1.4">Page Name - 1.4</a></li>
+                    <li><a href="#" title="Page Name - 1.5">Page Name - 1.5</a></li>
+                  </ul>
+                  <!--/Sub Menu--> 
+                </li>
+                <li><a href="#" title="Page Name - 3">Page Name - 3</a></li>
+                <li><a href="#" title="Page Name - 4">Page Name - 4</a></li>
+                <li><a href="#" title="Page Name - 5">Page Name - 5</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--/Vertical Menu Bar - with drop-down list--> 
+        </div>
+      </div>
+      <div class="column grid-margin hidden-tablet hidden-mobile">
+        <hr>
+      </div>
+      <!--/Navigation - Menu Bar--> 
+      
+      <!--Navigation - Progress Bar-->
+      <div class="row">
+        <div class="column">
+          <h2>Navigation - Progress Bar</h2>
+          <nav class="nav-progress">
+            <ul>
+              <li class="active"><a href="#">Section One</a><span class="bullet"></span></li>
+              <li><a href="#">Section Two</a><span class="bullet"></span></li>
+              <li><a href="#">Section Three</a><span class="bullet"></span></li>
+              <li><a href="#">Section Four</a><span class="bullet"></span></li>
+              <li><a href="#">Section Five</a><span class="bullet"></span></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Navigation - Progress Bar--> 
+      
+      <!--Navigation - Off Canvas Menu-->
+      <div class="row">
+        <div class="column">
+          <h2>Navigation - Off Canvas Menu</h2>
+          <a class="fa fa-navicon fa-2x off-menu-icon" href="#startFromTop"></a> </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Navigation - Off Canvas Menu--> 
+      
+      <!--Tabs-->
+      <div class="row">
+        <h2 class="column">Tabs</h2>
+        <div class="columns large-6">
+          <div class="tabs">
+            <div class="tab-links">
+              <ul>
+                <li class="active"><a href="#tab1">Tab 1</a></li>
+                <li><a href="#tab2">Tab 2</a></li>
+                <li><a href="#tab3">Tab 3</a></li>
+                <li><a href="#tab4">Tab 4</a></li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div id="tab1" class="tab active">
+                <p>Tab 111: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 111</p>
+              </div>
+              <div id="tab2" class="tab">
+                <p>Tab 222: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 222</p>
+              </div>
+              <div id="tab3" class="tab">
+                <p>Tab 333: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 333</p>
+              </div>
+              <div id="tab4" class="tab">
+                <p>Tab 444: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 444</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Tabs--> 
+      <!--PopUp-->
+      <div class="row">
+        <h2 class="column">PopUp</h2>
+        <div class="columns large-3 medium-6">
+          <div class="grid-margin"><a href="#" class="popup-icon" title="Click here to show the popup">Click here to show the popup</a></div>
+          <div class="popup-overlay"></div>
+          <div class="popup-container"> <a href="#" class="close">X</a>
+            <div class="content heightFixed">
+              <h3>Keep it simple...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/PopUp--> 
+      <!--Table-->
+      <div class="row">
+        <h2 class="column">Table</h2>
+        <div class="row">
+          <div class="columns large-6 medium-8">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Table Header</th>
+                  <th scope="col">Table Header</th>
+                  <th scope="col">Table Header</th>
+                  <th scope="col">Table Header</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                </tr>
+                <tr>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                </tr>
+                <tr>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                </tr>
+                <tr>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                  <td>Table Content</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Table--> 
+      <!--Responsive Images-->
+      <div class="row">
+        <h2 class="column">Responsive Images</h2>
+        <div class="row">
+          <div class="columns"> <img src="assets/imgs/responsive-web-design.png" alt="Responsive Web Design"> </div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Responsive Images--> 
+      <!--Loading-->
+      <div class="row">
+        <h2 class="column">Loading</h2>
+        <div class="row">
+          <div class="columns loading"><div class="icon"></div></div>
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+      </div>
+      <!--/Loading--> 
+      <!--Colors-->
+      <div class="row">
+        <h2 class="column">Colors <span class="font-small color-gray">[You can change the colors according to your theme].</span></h2>
+        <div class="row"> 
+          <!--Font Color-->
+          <div class="columns large-4 grid-margin-med-sm">
+            <h3>Font Color:</h3>
+            <table class="mar-0">
+              <tr>
+                <td class="five">Default</td>
+                <td class="two color-white" style="background-color:#333;">#333</td>
+                <td class="five">body {color:#333;} <br>
+                  <br>
+                  Class = .color-default</td>
+              </tr>
+              <tr>
+                <td class="five">Black</td>
+                <td class="two color-white" style="background-color:#000;">#000</td>
+                <td class="five">Class = .color-black</td>
+              </tr>
+              <tr>
+                <td class="five">Gray</td>
+                <td class="two color-white" style="background-color:#999;">#999</td>
+                <td class="five"> Class = .color-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Dark Gray</td>
+                <td class="two color-white" style="background-color:#777;">#777</td>
+                <td class="five"> Class = .color-dark-gray</td>
+              </tr>
+              <tr>
+                <td class="five">White</td>
+                <td class="two">#fff</td>
+                <td class="five">Class = .color-white</td>
+              </tr>
+              <tr>
+                <td class="five">Alert/Error [Red]</td>
+                <td class="two color-white" style="background-color:#ff0000;">#ff0000</td>
+                <td class="five">Class = .color-red</td>
+              </tr>
+              <tr>
+                <td class="five">Success [Green]</td>
+                <td class="two color-white" style="background-color:#00c555;">#00c555</td>
+                <td class="five">Class = .color-green</td>
+              </tr>
+              <tr>
+                <td class="five">Link &lt;a&gt;</td>
+                <td class="two color-white" style="background-color:#0066bb;">#0066bb</td>
+                <td class="five">a {color:#0066bb;}</td>
+              </tr>
+            </table>
+          </div>
+          <!--/Font Color--> 
+          <!--Border Color-->
+          <div class="columns large-4 grid-margin-med-sm">
+            <h3>Border Color:</h3>
+            <table class="mar-0">
+              <tr>
+                <td class="five">Gray [Default]</td>
+                <td class="two" style="background-color:#ddd;">#ddd</td>
+                <td class="five">Class = .bord-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Dark Gray</td>
+                <td class="two" style="background-color:#bbb;">#bbb</td>
+                <td class="five">Class = .bord-dark-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Table | th | td</td>
+                <td class="two" style="background-color:#ddd;">#ddd</td>
+                <td class="five"></td>
+              </tr>
+              <tr>
+                <td class="five">Form - [Input Field | Select Lis | Text Area]</td>
+                <td class="two" style="background-color:#bbb;">#bbb</td>
+                <td class="five"></td>
+              </tr>
+              <tr>
+                <td class="five">Separator | hr</td>
+                <td class="two" style="background-color:#ddd;">#ddd</td>
+                <td class="five">Class = .sep</td>
+              </tr>
+              <tr>
+                <td class="five">Alert/Error [Red]</td>
+                <td class="two color-white" style="background-color:#ff0000;">#ff0000</td>
+                <td class="five">Class = .has-error</td>
+              </tr>
+              <tr>
+                <td class="five">Alert/Error:focus [Red]</td>
+                <td class="two color-white" style="background-color:#df0000;">#df0000</td>
+                <td class="five">Class = .has-error</td>
+              </tr>
+              <tr>
+                <td class="five">Success [Green]</td>
+                <td class="two color-white" style="background-color:#00c555;">#00c555</td>
+                <td class="five">Class = .has-success</td>
+              </tr>
+              <tr>
+                <td class="five">Success:focus [Green]</td>
+                <td class="two color-white" style="background-color:#00a333;">#00a333</td>
+                <td class="five">Class = .has-success</td>
+              </tr>
+            </table>
+          </div>
+          <!--/Border Color--> 
+          <!--Background Color-->
+          <div class="columns large-4">
+            <h3>Background Color:</h3>
+            <table class="mar-0">
+              <tr>
+                <td class="five">Gray [Default]</td>
+                <td class="two bg-gray">#f1f1f1</td>
+                <td class="five">Class = .bg-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Light Gray</td>
+                <td class="two bg-light-gray">#fafafa</td>
+                <td class="five">Class = .bg-light-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Dark Gray</td>
+                <td class="two bg-dark-gray">#ddd</td>
+                <td class="five">Class = .bg-dark-gray</td>
+              </tr>
+              <tr>
+                <td class="five">Table</td>
+                <td class="two">#fff</td>
+                <td class="five"></td>
+              </tr>
+              <tr>
+                <td class="five">Table th</td>
+                <td class="two bg-gray">#f1f1f1</td>
+                <td class="five"></td>
+              </tr>
+              <tr>
+                <td class="five">Red</td>
+                <td class="two bg-red color-white">#ff0000</td>
+                <td class="five">Class = .bg-red</td>
+              </tr>
+              <tr>
+                <td class="five">Green</td>
+                <td class="two bg-green color-white">#00c555</td>
+                <td class="five">Class = .bg-green</td>
+              </tr>
+            </table>
+          </div>
+          <!--/Background Color--> 
+        </div>
+      </div>
+      <div class="column grid-margin">
+        <hr>
+        <br>
+      </div>
+      <!--/Colors--> 
+    </section>
+    <!--/Content--> 
+  </div>
+</div>
+<!--/Wrapper--> 
+<a href="#" class="back-to-top"><span class="arrow"></span> العودة للأعلى</a> 
+<script src="assets/js/script.js"></script>
+</body>
+</html>

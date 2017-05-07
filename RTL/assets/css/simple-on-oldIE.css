@@ -1,0 +1,147 @@
+.wrapper {
+/*width: !important;*/  /* Add width in case fixed layout for ie8 and less. */
+}
+/* --------------------Grid-------------------- */
+/* Column Classes */
+.large-1 {
+	width:8.33333% !important;
+}
+.large-2 {
+	width:16.66667% !important;
+}
+.large-3 {
+	width:25% !important;
+}
+.large-4 {
+	width:33.33333% !important;
+}
+.large-5 {
+	width:41.66667% !important;
+}
+.large-6 {
+	width:50% !important;
+}
+.large-7 {
+	width:58.33333% !important;
+}
+.large-8 {
+	width:66.66667% !important;
+}
+.large-9 {
+	width:75% !important;
+}
+.large-10 {
+	width:83.33333% !important;
+}
+.large-11 {
+	width:91.66667% !important;
+}
+.large-12 {
+	width:100% !important;
+}
+/* /Column Classes */
+
+/* Grid Margin */
+.grid-margin-lg {
+	margin:0 auto 15px !important;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large screen only */
+}
+.grid-margin-lg-med {
+	margin:0 auto 15px !important;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and medium screens only */
+}
+.grid-margin-lg-sm {
+	margin:0 auto 15px !important;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and small screens only */
+}
+.grid-margin-lg-mini {
+	margin:0 auto 15px !important;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and mini screens only */
+}
+/* /Grid Margin */
+
+/* Grid-Space Feature */
+.lg-push-0 {
+	margin-left:0% !important;
+}
+.lg-push-1 {
+	margin-left: 8.33333% !important;
+}
+.lg-push-2 {
+	margin-left: 16.66667% !important;
+}
+.lg-push-3 {
+	margin-left: 25% !important;
+}
+.lg-push-4 {
+	margin-left: 33.33333% !important;
+}
+.lg-push-5 {
+	margin-left: 41.66667% !important;
+}
+.lg-push-6 {
+	margin-left: 50% !important;
+}
+.lg-push-7 {
+	margin-left: 58.33333% !important;
+}
+.lg-push-8 {
+	margin-left: 66.66667% !important;
+}
+.lg-push-9 {
+	margin-left: 75% !important;
+}
+.lg-push-10 {
+	margin-left: 83.33333% !important;
+}
+.lg-push-11 {
+	margin-left: 91.66667% !important;
+}
+.lg-pull-0 {
+	margin-right:0% !important;
+}
+.lg-pull-1 {
+	margin-right: 8.33333% !important;
+}
+.lg-pull-2 {
+	margin-right: 16.66667% !important;
+}
+.lg-pull-3 {
+	margin-right: 25% !important;
+}
+.lg-pull-4 {
+	margin-right: 33.33333% !important;
+}
+.lg-pull-5 {
+	margin-right: 41.66667% !important;
+}
+.lg-pull-6 {
+	margin-right: 50% !important;
+}
+.lg-pull-7 {
+	margin-right: 58.33333% !important;
+}
+.lg-pull-8 {
+	margin-right: 66.66667% !important;
+}
+.lg-pull-9 {
+	margin-right: 75% !important;
+}
+.lg-pull-10 {
+	margin-right: 83.33333% !important;
+}
+.lg-pull-11 {
+	margin-right: 91.66667% !important;
+}
+/* /Grid-Space Feature */
+/* --------------------/Grid-------------------- */
+
+/* --------------------Visibility Classes [for Desktop]-------------------- */
+.hidden-desktop {
+	display:none !important;
+}
+.visible-desktop {
+	display:block !important;
+}
+/* --------------------/Visibility Classes [for Desktop]-------------------- */
+
