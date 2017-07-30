@@ -38,7 +38,7 @@ Simple supports modern web browsers like:
 * Medium Screens = Tablet.
 * Small Screens = Mobile.
 
-# Structure/Visibility Classes):
+# Structure/Visibility Classes:
 [Class to show and hide content]:
 * .hidden-desktop
 * .visible-desktop
