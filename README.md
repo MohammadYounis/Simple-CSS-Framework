@@ -1,5 +1,5 @@
 # Simple-CSS-Framework
-The simplest responsive front-end framework
+The simplest responsive front-end framework.
 
 # Features:
 1.	Simple.
