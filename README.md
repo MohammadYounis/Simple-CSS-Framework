@@ -26,11 +26,11 @@ Simple supports modern web browsers like:
 
 # Structure/Grid:
 [Grid Fundamentals]:
-•	Multi-device layouts with 12-columns.
-•	Use row classes to create horizontal rows.
-•	Use columns classes to create vertical columns.
-•	You can nest the grids.
-•	Grid/Space feature (Pull & Push) allow you to create additional space between columns in a row.
+*	Multi-device layouts with 12-columns.
+*	Use row classes to create horizontal rows.
+*	Use columns classes to create vertical columns.
+*	You can nest the grids.
+*	Grid/Space feature (Pull & Push) allow you to create additional space between columns in a row.
 
 # Structure/Media Queries:
 [Screen Sizes]:
@@ -40,12 +40,12 @@ Simple supports modern web browsers like:
 
 # Structure/Visibility Classes):
 [Class to show and hide content]:
-.hidden-desktop
-.visible-desktop
-.hidden-tablet
-.visible-tablet
-.hidden-phone
-.visible-phone
+* .hidden-desktop
+* .visible-desktop
+* .hidden-tablet
+* .visible-tablet
+* .hidden-phone
+* .visible-phone
 
 
 
