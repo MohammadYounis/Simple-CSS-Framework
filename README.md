@@ -34,9 +34,9 @@ Simple supports modern web browsers like:
 
 # Structure/Media Queries:
 [Screen Sizes]:
-1.	XLarge Screens & Large Screens = Desktop.
-2.	Medium Screens = Tablet.
-3.	Small Screens = Mobile.
+* XLarge Screens & Large Screens = Desktop.
+* Medium Screens = Tablet.
+* Small Screens = Mobile.
 
 # Structure/Visibility Classes):
 [Class to show and hide content]:
